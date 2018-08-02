@@ -28,6 +28,10 @@ export default {
     update: fields
   },
 
+  polling: {
+    interval: 2000
+  },
+
   properties: {
 
     /**
