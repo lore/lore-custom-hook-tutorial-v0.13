@@ -25,6 +25,11 @@ createReactClass({
     tweets: PropTypes.object.isRequired
   },
 
+  componentDidMount() {
+    const { tweets } = this.props;
+    lore.polling.tweet.find(tweets.query.where);
+  },
+
   renderTweet(tweet) {
     return (
       <Tweet key={tweet.id || tweet.cid} tweet={tweet} />
