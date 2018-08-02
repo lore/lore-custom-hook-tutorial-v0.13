@@ -1,8 +1,29 @@
 # lore-custom-hook-tutorial-v0.13
 
-This is a [Lore](https://www.lorejs.org) application.
+This is the code for the [Custom Hook Tutorial](http://www.lorejs.org/hooks/tutorial/) for Lore.
 
-The best way to learn how to use Lore is by going through the [Quickstart](https://www.lorejs.org/anatomy/).
+### Install the Dependencies
+First install the dependencies:
 
-For an explanation of the project structure, and what all the files and folders are for, see
-the [Anatomy Documentation](https://www.lorejs.org/anatomy/)
+```sh
+npm install
+```
+
+### Start the API Server
+Just like the Quickstart, this project uses `json-server` to provide a real API interface. Run this to command
+to start the server:
+
+```sh
+npm run server
+```
+
+Once the server is running, you should be able to navigate to `http://localhost:1337` and see a list of API endpoints.
+
+### Build the Project
+Finally, run this command to build the project and start the development server:
+
+```sh
+npm start
+```
+
+Once the project is built, open a web browser and visit `http://localhost:3000`.
