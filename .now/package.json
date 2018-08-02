@@ -1,0 +1,9 @@
+{
+  "name": "lore-custom-hook-tutorial-v0.13",
+  "scripts": {
+    "start": "serve . --single"
+  },
+  "dependencies": {
+    "serve": "latest"
+  }
+}
